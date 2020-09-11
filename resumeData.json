@@ -1,0 +1,160 @@
+{
+  "main": {
+    "name":"gabriel granata",
+    "occupation":"software engineering student",
+    "description":"Here will be your description. Use this to describe what you do or whatever you feel best describes yourself to a potential employer",
+    "image":"profilepic.jpg",
+    "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
+    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
+    "email": "youremailhere@gmail.com",
+    "phone": "555-555-5555",
+    "address":{
+      "street":"4347 Hartfield Grove",
+      "city":"Mississauga",
+      "state":"ON",
+      "zip": "L4W 2Y6"
+    },
+    "website": "http://www.timbakerdev.com",
+    "resumedownload":"http://timbakerdev.com",
+    "social":[
+      {
+        "name":"github",
+        "url":"http://github.com/gabrielgranata",
+        "className":"fa fa-github"
+      },
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/gabrielgranata/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name": "dev",
+        "url": "https://devpost.com/gabrielgranata",
+        "className": "fas fa-terminal"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
+    "education":[
+      {
+        "school":"University of Ottawa",
+        "degree":"BASc in Software Engineering (Co-Op), Management & Entrepeneurship Option",
+        "graduated":"December 2022",
+        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+      }
+    ],
+    "work":[
+      {
+        "company":"BMO Capital Markets",
+        "title":"Software Engineering Intern",
+        "years":"September 2020 - Present",
+        "description":"Intern on the Cross-Asset Solutions - Linked Notes Structuring desk."
+      },
+      {
+        "company":"BMO Capital Markets",
+        "title":"Software Engineering Intern",
+        "years":"January 2020 - April 2020",
+        "description": "Developed multiple internal tools and applications on the .NET framework, mainly interacting with the BMO Mesh network.\nAutomated several manual Excel pricing calculation tasks, now using .NET automation tasks, to increase the speed and efficiency of the in-house workflow.\nDeveloped a dependency graph similar to the Microsoft Excel algorithm to create and manage an implied market for Canadian bonds using real-time prices.\nUsed recursive solutions, event-based solutions, and graphing techniques to lower the memory and CPU usage of graph updates.\nEmployed real-time programming techniques to ensure the product functioned under critica time & resource constraints."
+      },
+      {
+        "company":"Super Cool Studio",
+        "title":"Junior bug fixer",
+        "years":"March 2007 - February 2010",
+        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+      }
+    ],
+    "programmingLanguages": [
+      {
+        "name": "Java"
+      },
+      {
+        "name": "JavaScript"
+      },
+      {
+        "name": "Python"
+      },
+      {
+        "name": "C#"
+      },
+      {
+        "name": "Dart"
+      },
+      {
+        "name": "SQL"
+      },
+      {
+        "name": "TypeScript"
+      },
+      {
+        "name": "C"
+      }
+    ],
+    "skills":[
+      {
+        "name":"Node.JS"
+      },
+      {
+        "name":".NET"
+      },
+      {
+        "name":"Flutter"
+      },
+      {
+        "name":"React / React Native"
+      },
+      {
+        "name":"Cloud (AWS, Google)"
+      },
+      {
+        "name":"Firebase"
+      },
+      {
+        "name":"MongoDB"
+      },
+      {
+        "name":"Bootstrap"
+      },
+      {
+        "name":"MQTT"
+      },
+      {
+        "name":"NPM"
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"Canadian Wanderlust",
+        "category":"My Travel Blog for my post-university travels",
+        "image":"canadian-wanderlust.jpg",
+        "url":"https://www.canadianwanderlust.com"
+      },
+      {
+        "title":"Fury Fighting Gear",
+        "category":"(offline now) A fighting gear company I started",
+        "image":"fury-fighting-gear.jpg",
+        "url":"http://www.timbakerdev.com"
+      },
+      {
+        "title":"Original Thai Food",
+        "category":"Website I built for a restaurant I like in Thailand",
+        "image":"original-thai-food.jpg",
+        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+      },
+      {
+        "title":"Resume Website",
+        "category":"A React based resume website template",
+        "image":"resume-website.jpg",
+        "url":"http://www.timbakerdev.com"
+      },
+      {
+        "title":"Smirkspace",
+        "category":"(MVP Only) A React and Meteor based chat University project.",
+        "image":"smirkspace.jpg",
+        "url":"http://www.smirkspace.com"
+      }
+    ]
+  }
+}
