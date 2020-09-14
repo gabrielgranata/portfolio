@@ -160,34 +160,34 @@
   "portfolio":{
     "projects": [
       {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"canadian-wanderlust.jpg",
-        "url":"https://www.canadianwanderlust.com"
+        "title":"Stock Clock",
+        "category":"Google chrome extension centred around stock market pricing alerts. Developed using JavaScript and Google API. Currently >20 active users.",
+        "image":"stock-clock.jpg",
+        "url":"https://chrome.google.com/webstore/detail/stock-clock/nhopfepkeijaenillmbfdcpiellmjngd"
       },
       {
-        "title":"Fury Fighting Gear",
-        "category":"(offline now) A fighting gear company I started",
-        "image":"fury-fighting-gear.jpg",
-        "url":"http://www.timbakerdev.com"
+        "title":"Ez-Transfer",
+        "category":"Android app developed to create easy cryptocurrency transfers on the Algorand blockchain. Developed using Android studio and a Node.JS backend. This project also involved the investigation of Algorand's SDK, and eventual debugging. The app resulted in a second place finish at the hackathon.",
+        "image":"ez-transfer.jpg",
+        "url":"https://devpost.com/software/ez-transfer"
       },
       {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"original-thai-food.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+        "title":"Packing Heat",
+        "category":"Flutter Android / iOS application developed to practice Flutter and the use of the Google Maps API to develop a full-stack map application for product deliveries. Winner of the Top 20 Wolfram Award at uOttahack 3 (2020).",
+        "image":"packing-heat.jpg",
+        "url":"https://devpost.com/software/packing-heat"
       },
       {
-        "title":"Resume Website",
-        "category":"A React based resume website template",
-        "image":"resume-website.jpg",
-        "url":"http://www.timbakerdev.com"
+        "title":"Exam Goat",
+        "category":"A React based standardized coding testing website developed to practice Firebase.",
+        "image":"exam-goat.jpg",
+        "url":"https://devpost.com/software/exam-goat"
       },
       {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"smirkspace.jpg",
-        "url":"http://www.smirkspace.com"
+        "title":"Call Centre",
+        "category":"A Java application to investigate the use of data structures - specifically LinkedLists",
+        "image":"call-centre.jpg",
+        "url":"https://github.com/gabrielgranata/call-centre"
       }
     ]
   }
