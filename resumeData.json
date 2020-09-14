@@ -1,13 +1,12 @@
 {
   "main": {
-    "name":"gabriel granata",
-    "occupation":"software engineering student",
-    "description":"Here will be your description. Use this to describe what you do or whatever you feel best describes yourself to a potential employer",
+    "name":"Gabriel Granata",
+    "occupation":"Software Engineering Student",
+    "description": ["Lover of software, people, and problems.", "It's nice to meet you."],
     "image":"profilepic.jpg",
-    "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
-    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
-    "email": "youremailhere@gmail.com",
-    "phone": "555-555-5555",
+    "bio":"I'm a third year Software Engineering student working his third co-op term at BMO Capital Markets in Toronto. I've spent my university career working with others and growing as a developer. Participating in over 5 hackathons with different groups of people, experimenting with different technologies and languages. My main skillset is centred around web and app development, recently taking an interest in machine and deep learning.",
+    "email": "gabriel@granata.tech",
+    "phone": "647-527-4348",
     "address":{
       "street":"4347 Hartfield Grove",
       "city":"Mississauga",
@@ -15,7 +14,7 @@
       "zip": "L4W 2Y6"
     },
     "website": "http://www.timbakerdev.com",
-    "resumedownload":"http://timbakerdev.com",
+    "resumedownload":"/resume.pdf",
     "social":[
       {
         "name":"github",
@@ -23,15 +22,16 @@
         "className":"fa fa-github"
       },
       {
+        "name": "dev",
+        "url": "https://devpost.com/gabrielgranata",
+        "className": "fa fa-code"
+      },
+      {
         "name":"linkedin",
         "url":"https://www.linkedin.com/in/gabrielgranata/",
         "className":"fa fa-linkedin"
-      },
-      {
-        "name": "dev",
-        "url": "https://devpost.com/gabrielgranata",
-        "className": "fas fa-terminal"
       }
+
     ]
   },
   "resume":{
@@ -41,7 +41,7 @@
         "school":"University of Ottawa",
         "degree":"BASc in Software Engineering (Co-Op), Management & Entrepeneurship Option",
         "graduated":"December 2022",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "description":"Hackathon winner. Dean's Honour List recipient. Former faculty council member."
       }
     ],
     "work":[
@@ -49,22 +49,30 @@
         "company":"BMO Capital Markets",
         "title":"Software Engineering Intern",
         "years":"September 2020 - Present",
-        "description":"Intern on the Cross-Asset Solutions - Linked Notes Structuring desk."
+        "description": ["Intern on the Cross-Asset Solutions - Linked Notes Structuring desk."]
       },
       {
         "company":"BMO Capital Markets",
         "title":"Software Engineering Intern",
         "years":"January 2020 - April 2020",
-        "description": "Developed multiple internal tools and applications on the .NET framework, mainly interacting with the BMO Mesh network.\nAutomated several manual Excel pricing calculation tasks, now using .NET automation tasks, to increase the speed and efficiency of the in-house workflow.\nDeveloped a dependency graph similar to the Microsoft Excel algorithm to create and manage an implied market for Canadian bonds using real-time prices.\nUsed recursive solutions, event-based solutions, and graphing techniques to lower the memory and CPU usage of graph updates.\nEmployed real-time programming techniques to ensure the product functioned under critica time & resource constraints."
+        "description": [
+          "As an intern on the Fixed Income and Canadian Commodities desk (Swaps and Bonds), I developed multiple internal tools to increase the efficiency of the in-house workflow.",
+          "I developed on the .NET framework, experimenting with different C# technologies and exploring data structures and algorithms such as dependency graphs and event-based programming. This included automating everyday Excel tasks for the team, generating price calculations and updating SQL databases for other teams, as well as exploring the message queue structure that BMO uses for their everyday trading.",
+          "For my term-ending project, I developed a large dependency graph for explicit and implicit bond prices. By employing recursive and event-based techniques, and using graphing structures, I was able to lower the memory usage of the solution from 8 GB to just over 200 MB. This heavily lowered CPU usage and the product was able to be implemented across multiple teams."
+        ]
       },
       {
-        "company":"Super Cool Studio",
-        "title":"Junior bug fixer",
-        "years":"March 2007 - February 2010",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company":"Mitel",
+        "title":"DevOps SRE Intern",
+        "years":"May 2019 - August 2019",
+        "description": [
+          "I completed my internship at Mitel as a member of the CloudLink DevOps team as a Site Reliability Engineer. The team was focused on the infrastructure and pipeline of Mitel's solutions.",
+          "I begun the term performing QA automation tasks, such as testing multiple websites developed on Angular using testing tools such as Jasmine, Selenium, and Protractor. All of my programming was done in TypeScript to ensure compatibility across browsers and ES versions. I was also tasked with automating the testing of different PBX phone systems, automating SSH and web portal tasks.",
+          "After completing my testing work on the QA team, I was tasked with developing a lambda function on AWS for nightly backups. This involved migrating a previous Batch implementation to a Lambda implementation, running on the Node.JS environment, to perform ElasticSearch and DynamoDB backups."
+        ]
       }
     ],
-    "programmingLanguages": [
+    "languages": [
       {
         "name": "Java"
       },
@@ -121,39 +129,65 @@
       {
         "name":"NPM"
       }
+    ],
+    "expertise": [
+      {
+        "name": "Web Development",
+        "description": "Full Stack web development skillset developed through experience developing at hackathons, for side projects, and completing online courses such as The Web Developer Bootcamp offered on Udemy."
+      },
+      {
+        "name": "App Development",
+        "description": "App development skillset developed through experience at hackathons and working on side projects. Completed the Flutter A-Z course online on Udemy."
+      },
+      {
+        "name": "Algorithm Development",
+        "description": "Years of programming experience have resulted in me being able to improve my algorithm development skills, from University courses, to completing technical interviews, to applying these skills in projects and at previous internships."
+      },
+      {
+        "name": "Machine Learning",
+        "description": "Currently improving my knowledge of machine learning by diving into Machine Learning: A-Z, a course offered on Udemy.com. Exploring topics such as regression, clustering, and reinforcement learning."
+      },
+      {
+        "name": "Deep Learning",
+        "description": "Learning about the components of deep learning and neural networks through online coursework - Deep Learning: A-Z, offered on Udemy.com"
+      },
+      {
+        "name": "Quality Assurance",
+        "description": "Developed testing experience with multiple languages and frameworks through University courses - such as Software QA - and through internships - such as at Mitel."
+      }
     ]
   },
   "portfolio":{
     "projects": [
       {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"canadian-wanderlust.jpg",
-        "url":"https://www.canadianwanderlust.com"
+        "title":"Stock Clock",
+        "category":"Google chrome extension centred around stock market pricing alerts. Developed using JavaScript and Google API. Currently >20 active users.",
+        "image":"stock-clock.jpg",
+        "url":"https://chrome.google.com/webstore/detail/stock-clock/nhopfepkeijaenillmbfdcpiellmjngd"
       },
       {
-        "title":"Fury Fighting Gear",
-        "category":"(offline now) A fighting gear company I started",
-        "image":"fury-fighting-gear.jpg",
-        "url":"http://www.timbakerdev.com"
+        "title":"Ez-Transfer",
+        "category":"Android app developed to create easy cryptocurrency transfers on the Algorand blockchain. Developed using Android studio and a Node.JS backend. This project also involved the investigation of Algorand's SDK, and eventual debugging. The app resulted in a second place finish at the hackathon.",
+        "image":"ez-transfer.jpg",
+        "url":"https://devpost.com/software/ez-transfer"
       },
       {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"original-thai-food.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+        "title":"Packing Heat",
+        "category":"Flutter Android / iOS application developed to practice Flutter and the use of the Google Maps API to develop a full-stack map application for product deliveries. Winner of the Top 20 Wolfram Award at uOttahack 3 (2020).",
+        "image":"packing-heat.jpg",
+        "url":"https://devpost.com/software/packing-heat"
       },
       {
-        "title":"Resume Website",
-        "category":"A React based resume website template",
-        "image":"resume-website.jpg",
-        "url":"http://www.timbakerdev.com"
+        "title":"Exam Goat",
+        "category":"A React based standardized coding testing website developed to practice Firebase.",
+        "image":"exam-goat.jpg",
+        "url":"https://devpost.com/software/exam-goat"
       },
       {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"smirkspace.jpg",
-        "url":"http://www.smirkspace.com"
+        "title":"Call Centre",
+        "category":"A Java application to investigate the use of data structures - specifically LinkedLists",
+        "image":"call-centre.jpg",
+        "url":"https://github.com/gabrielgranata/call-centre"
       }
     ]
   }
